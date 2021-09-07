@@ -1,0 +1,73 @@
+{
+  "name": "scratch-for-discord",
+  "version": "1.13.0",
+  "private": true,
+  "scripts": {
+    "audit": "npm audit fix",
+    "update": "npm update",
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@blockly/theme-modern": "^2.1.10",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "blockly": "^4.20201217.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "easy-json-database-browser": "^2.1.0",
+    "js-beautify": "^1.13.5",
+    "jszip": "^3.6.0",
+    "sweetalert2": "^10.15.5",
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.24.0",
+    "vue-swal": "^1.0.0",
+    "vue-toast-notification": "^0.6.1",
+    "vue-tour": "^1.5.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/preset-env": "^7.13.10",
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.7",
+    "@vue/cli-service": "^4.5.11",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "🐱 Make your Discord bot using Scratch blocks! [Scratch For Discord](https://scratch-for-discord.netlify.com) is an advanced fork of [discord-blocks](https://discordblocks.leondrolio.com/). Thanks to [7coil](https://github.com/7coil) for their great work!",
+  "main": "babel.config.js",
+  "directories": {
+    "example": "examples"
+  },
+  "author": "",
+  "license": "ISC"
+}
