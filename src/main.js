@@ -123,6 +123,7 @@ Vue.mixin({
                 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
                 const s4d = {
                     aoijs,
+                    client:null,
                     joiningMember:null,
                     reply:null,
                     checkMessageExists() {
@@ -130,9 +131,7 @@ Vue.mixin({
                         if (!s4d.client.readyTimestamp) throw new Error('You cannot perform message operations while the bot is not connected to the Discord API')
                     }
                 };
-
                 ${Blockly.JavaScript.workspaceToCode(this.$store.state.workspace)}
-
                 return s4d;
                 })();
             `;

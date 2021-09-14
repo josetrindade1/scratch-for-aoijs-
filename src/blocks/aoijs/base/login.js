@@ -31,6 +31,6 @@ Blockly.Blocks[blockName] = {
 Blockly.JavaScript[blockName] = function(block) {
     const token = Blockly.JavaScript.valueToCode(block, "TOKEN", Blockly.JavaScript.ORDER_ATOMIC);
     const prefix = Blockly.JavaScript.valueToCode(block, "PREFIX", Blockly.JavaScript.ORDER_ATOMIC);
-    const code = `await s4d.client = new aoijs.Bot({token: ${token}, prefix: ${prefix}})\n`;
+    const code = `await s4d.client = new aoijs.Bot({token: ${token}, prefix: ${prefix}})\ns4d.client.onMessage()\n`;
     return code;
 };

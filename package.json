@@ -69,5 +69,13 @@
     "example": "examples"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josetrindade1/scratch-for-aoijs-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josetrindade1/scratch-for-aoijs-/issues"
+  },
+  "homepage": "https://github.com/josetrindade1/scratch-for-aoijs-#readme"
 }

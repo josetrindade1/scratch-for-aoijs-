@@ -4,7 +4,7 @@
   "REPLY": "responder %1",
   "LOGIN": "Conecte-se ao Discord com o token %1 e prefixo %2",
   "LOGIN_TOOLTIP": "Conecte seu bot ao Discord. Para obter seu token de bot, vá para https://discord.com/developers/.",
-  "ON_MESSAGE": "Quando uma mensagem é recebida",
+  "ON_MESSAGE": "criar um comando com o nome %3 codigo %1 %2",
   "ON_CONNECTED": "quando o bot for conectado começa aoijs codigo no canal %3 %1 %2",
   "ON_CONNECTED_TOOLTIP": "Evento emitido quando seu bot está conectado ao Discord.",
   "MESSAGE_ID": "message ID",

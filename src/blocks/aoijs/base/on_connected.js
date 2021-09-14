@@ -27,7 +27,6 @@ Blockly.Blocks[blockName] = {
         this.jsonInit(blockData);
     }
 };
-
 Blockly.JavaScript[blockName] = function(block) {
     const channel = Blockly.JavaScript.valueToCode(block, "CHANNEL", Blockly.JavaScript.ORDER_ATOMIC);
     const statements = Blockly.JavaScript.statementToCode(block, "STATEMENTS");

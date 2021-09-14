@@ -27,8 +27,6 @@ import "./blocks/aoijs/servers/";
 import "./blocks/aoijs/roles/";
 import "./blocks/aoijs/members/";
 
-import "./blocks/text/";
-import "./blocks/loops/";
 import "./blocks/other/";
 import "./prompt";
 
